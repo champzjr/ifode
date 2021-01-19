@@ -4,7 +4,7 @@ import {Navbar, NavItem} from 'react-materialize';
 function Header() {
   return (
     <div className="Header ">
-      <Navbar brand={<a>Ifode</a>} alignLinks="right">
+      <Navbar brand={<a href="/qualquercoisa">Ifode</a>} alignLinks="right">
         <NavItem href="">
           Getting started
         </NavItem>
