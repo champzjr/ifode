@@ -20,7 +20,7 @@ class Menu extends Component {
         {this.state.users.map(user => (
           <Row key={user.id}>
             <Col m={4} s={4} key={user.id}>
-              <Card key={user.id} header={<div className="card-image"><img src="https://source.unsplash.com/800x600/?monkey" alt=""/></div>} title={user.name} reveal={"Horário: 20:30 as 06:00 Endereço: "+ user.address.city + ", " + user.address.street + ", " + user.address.suite + "\n\n " + user.website }>
+              <Card key={user.id} header={<div className="card-image"><img src="https://source.unsplash.com/800x600/?duck" alt=""/></div>} title={user.name} reveal={"Horário: 20:30 as 06:00 Endereço: "+ user.address.city + ", " + user.address.street + ", " + user.address.suite + "\n\n " + user.website }>
                 <p>
                   Valor: R$ 200,00 <br/>telefone:{user.phone}<br/>
                   <a href="/qualquercoisaainafrente">
